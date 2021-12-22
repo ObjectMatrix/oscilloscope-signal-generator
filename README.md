@@ -1,5 +1,5 @@
 # oscilloscope-signal-generator
-Oscilloscope signal generator  
+Oscilloscope and different Signal Analysis    
 ![Scope](rigol-scope.png)  
 
 ## How to generate different signal using ESP32 and analyzing signals with an Oscilloscope   
