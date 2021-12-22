@@ -17,11 +17,15 @@ int waveformID = 0;
 volatile int interruptCounter = 0;
 
 // Debouncing parameters
-long debouncing_time = 1000; //Debouncing Time in Milliseconds
+// Debouncing Time in Milliseconds
+long debouncing_time = 1000; 
 volatile unsigned long last_micros;
 
 portMUX_TYPE mux = portMUX_INITIALIZER_UNLOCKED;
 
+/**
+ Detect the button pressed
+ */
 void IRAM_ATTR handleInterrupt() {
   portENTER_CRITICAL_ISR(&mux);
    if((long)(micros() - last_micros) >= debouncing_time * 1000) {
@@ -52,7 +56,7 @@ void loop() {
 
       /**
         sample_delay = map(analogRead(POT_GPIO), 0, 4095, 0, 100);
-      */
+       */
       Serial.print("Waveform ID: ");
       Serial.print(waveformID);
       Serial.print(", delay: ");
