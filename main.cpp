@@ -71,7 +71,7 @@ void loop() {
     i = 0;
 /**
   sample_delay = map(analogRead(POT_GPIO), 0, 4095, 0, 100);
-  delayMicroseconds(sample_delay);  // Hold the sample value for the sample time
+  delayMicroseconds(sample_delay);
   Hold the sample value for the sample time
 */
   delayMicroseconds(map(analogRead(POT_GPIO), 0, 4095, 0, 100));  
