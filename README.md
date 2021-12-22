@@ -1,10 +1,11 @@
-# oscilloscope-signal-generator
-Oscilloscope and different Signal Analysis    
+# Oscilloscope and Signal Generator with ESP32 MCU
+Oscilloscope for different waveforms analysis    
 ![Scope](rigol-scope.png)  
 
 ## ESP32 Function Block Diagram  
 
-![esp32](ESP32.png)
+![esp32](ESP32.png)   
+Learn More: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 
 ## Schema  
 ![schema](waveform_generator.png)   
