@@ -6,6 +6,8 @@ Oscilloscope and different Signal Analysis
 
 ![esp32](ESP32.png)
 
+## Breadboard    
+![Breadboard](ESP32-SG.png)   
 ## Schema  
 ![schema](waveform_generator.png)   
 ## Wave Calculated from  
