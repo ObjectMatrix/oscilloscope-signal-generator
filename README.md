@@ -2,7 +2,7 @@
 Oscilloscope and different Signal Analysis    
 ![Scope](rigol-scope.png)  
 
-## How to generate different signal using ESP32 and analyzing signals with an Oscilloscope   
+## ESP32 Function Block Diagram  
 
 ![esp32](ESP32.png)
 
