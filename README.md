@@ -3,4 +3,7 @@ How to generate different signal using ESP32 and analyzing signals with an Oscil
 
 ![esp32](ESP32.png)
 
+## Wave Calculated from  
+ https://daycounter.com/Calculators/Sine-Generator-Calculator.phtml    
 
+ 
