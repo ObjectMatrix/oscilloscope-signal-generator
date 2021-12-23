@@ -5,15 +5,19 @@ Oscilloscope for different waveforms analysis
 ## ESP32 Function Block Diagram  
 
 ![esp32](images/ESP32.png)   
-Learn More: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+  More: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 
 ## Breadboard    
-![Breadboard](images/ESP32-SG.png)   
+![Breadboard](images/ESP32-SG.png)  
+  
+
+## Pins  
+ ![esp32  pins](images/pins.png)
+ 
 ## Schema  
-![schema](images/waveform_generator.png)   
+ ![schema](images/waveform_generator.png)  
+
 ## Wave Calculated from  
  https://daycounter.com/Calculators/Sine-Generator-Calculator.phtml  
- ## Pins  
- ![esp32  pins](images/pins.png)
 
 
